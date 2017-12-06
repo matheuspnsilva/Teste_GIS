@@ -40,12 +40,7 @@
 
         // Use proxy if the server doesn't support CORS
         // esriConfig.defaults.io.proxyUrl = "/proxy/";  
-        
-        map = new Map("map", {
-          basemap: "gray",
-          center: [ -60, -10 ],
-          zoom: 4 
-        });
+      
         csv = new CSVLayer("https://matheuspnsilva.github.io/Teste_GIS/docs/unidades2.csv", {
           copyright: "USGS.gov"
         });
