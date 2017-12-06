@@ -53,7 +53,7 @@
         var marker = new SimpleMarkerSymbol("solid", 15, null, orangeRed);
         var renderer = new SimpleRenderer(marker);
         csv.setRenderer(renderer);
-        var template = new InfoTemplate("${type}", "${place}");
+        var template = new InfoTemplate("${uf}", "${nome_municipio}", "${codigo_municipio_completo}", "${unidade_pf}", "${unidade_crim}", "${sigla_crim}", "${unid_endereco}", "${unid_CEP}", "${latitude}", "${longitude}");
         csv.setInfoTemplate(template);
         map.addLayer(csv);
       });
