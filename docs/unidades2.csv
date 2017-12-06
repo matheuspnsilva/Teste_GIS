@@ -1,4 +1,4 @@
-"uf","nome_uf","nome_municipio","codigo_municipio_completo","unidade_pf","unidade_crim","sigla_crim","unid_endereco","unid_CEP","Y","X","icon"
+"uf","nome_uf","nome_municipio","codigo_municipio_completo","unidade_pf","unidade_crim","sigla_crim","unid_endereco","unid_CEP","latitude","longitude","icon"
 "11","Rondonia","Porto Velho","1100205","Superintendência Regional em Rondônia","Setor Técnico-Científico","SETEC/SR/PF/RO","Av. Lauro Sodré, 2905 - Bairro Costa e Silva","78903-711","-8.738721","-63.901947","large_blue"
 "11","Rondônia","Vilhena","1100304","Delegacia de Vilhena","Unidade Técnico-Científica","UTEC/PF/VLA/RO","Av. 15 de Novembro, 3485","76980-000","-12.746067","-60.144223","large_green"
 "12","Acre","Rio Branco","1200401","Superintendência Regional no Acre","Setor Técnico-Científico","SETEC/SR/PF/AC","Rua Floriano Peixoto, 874 - Centro","69.908-030","-9.971661","-67.852110","large_blue"
