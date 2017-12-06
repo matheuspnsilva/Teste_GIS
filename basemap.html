@@ -29,7 +29,11 @@
     ) {
       parser.parse();
 
-      map = new Map;
+        map = new Map("map", {
+        basemap: "topo",
+        center: [-49.22795, -25.37632],
+        zoom: 10
+      });
 
       //add the basemap gallery, in this case we'll display maps from ArcGIS.com including bing maps
       var basemapGallery = new BasemapGallery({
