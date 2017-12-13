@@ -34,6 +34,14 @@
         center: [-49.22795, -25.37632],
         zoom: 10
       });
+        var scalebar = new Scalebar({
+        map: map,
+        // "dual" displays both miles and kilometers
+        // "english" is the default, which displays miles
+        // use "metric" for kilometers
+        scalebarUnit: "dual"
+      });
+      
 
       //add the basemap gallery, in this case we'll display maps from ArcGIS.com including bing maps
       var basemapGallery = new BasemapGallery({
