@@ -26,14 +26,9 @@
           center: {lat: 41.850033, lng: -87.6500523},
           zoom: 11
         });
-
-        var layer = new google.maps.FusionTablesLayer({
-          query: {
-            url: 'https://matheuspnsilva.github.io/Teste_GIS/unidades2.csv'
-            select: '\'Latitude, Longitude\'',
-            from: '1mZ53Z70NsChnBMm-qEYmSDOvLXgrreLTkQUvvg'
-          }
-        });
+        
+     map.data.loadGeoJson(
+            'https://matheuspnsilva.github.io/Teste_GIS/docs/convertcsv.json');
         layer.setMap(map);
       }
     </script>
