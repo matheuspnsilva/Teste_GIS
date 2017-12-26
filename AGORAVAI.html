@@ -29,7 +29,8 @@
 
         var layer = new google.maps.FusionTablesLayer({
           query: {
-            select: '\'Geocodable address\'',
+            url: 'https://matheuspnsilva.github.io/Teste_GIS/unidades2.csv'
+            select: '\'Latitude, Longitude\'',
             from: '1mZ53Z70NsChnBMm-qEYmSDOvLXgrreLTkQUvvg'
           }
         });
